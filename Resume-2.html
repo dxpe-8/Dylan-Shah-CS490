@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Computer Science Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 22px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .contact-info, .education, .skills, .experience, .projects {
+            margin-bottom: 30px;
+        }
+        .skills ul, .experience ul, .projects ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skills ul li, .experience ul li, .projects ul li {
+            margin-bottom: 5px;
+        }
+        .experience-title, .project-title {
+            font-weight: bold;
+        }
+        .subheading {
+            font-weight: bold;
+        }
+
+        /* Style for the Go Back link */
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #2E86C1;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #1B4F72;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header / Contact Info -->
+        <div class="contact-info">
+            <h1>Dylan Shah</h1>
+            <p>Email: dylan.shah@example.com | Phone: (555) 555-5555</p>
+            <p>GitHub: github.com/dylans | LinkedIn: linkedin.com/in/dylans</p>
+        </div>
+
+        <!-- Education Section -->
+        <div class="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Science in Computer Science</strong></p>
+            <p>Rutgers University, Newark, NJ — Graduated: May 2025</p>
+            <p>GPA: 3.8/4.0</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, Java, C++</li>
+                <li><strong>Web Development:</strong> HTML, CSS, React, Node.js</li>
+                <li><strong>Database:</strong> MySQL, MongoDB, PostgreSQL</li>
+                <li><strong>Tools & Technologies:</strong> Git, Docker, AWS, Linux</li>
+                <li><strong>Algorithms & Data Structures:</strong> Sorting, Searching, Dynamic Programming, Graph Theory</li>
+            </ul>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="experience">
+            <h2>Experience</h2>
+
+            <ul>
+                <li>
+                    <p class="experience-title">Software Developer Intern — ABC Tech, City, State</p>
+                    <p class="subheading">June 2022 - August 2022</p>
+                    <ul>
+                        <li>Developed a RESTful API using Node.js and Express to manage user data for an internal CRM system.</li>
+                        <li>Collaborated with a team to integrate third-party services and optimized existing database queries, reducing latency by 30%.</li>
+                        <li>Worked with a Scrum team using Agile methodologies to deliver incremental updates to the product.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p class="experience-title">Teaching Assistant — XYZ University, City, State</p>
+                    <p class="subheading">September 2021 - May 2023</p>
+                    <ul>
+                        <li>Assisted in teaching Data Structures and Algorithms to a class of 100+ students.</li>
+                        <li>Held office hours, graded assignments, and provided guidance to students on projects and coding problems.</li>
+                        <li>Led weekly discussion sessions to clarify key concepts in algorithm design and analysis.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <p class="project-title">Portfolio Website</p>
+                    <ul>
+                        <li>Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills.</li>
+                        <li>Optimized the site for performance and SEO, achieving a PageSpeed score of 95+.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p class="project-title">Chat Application</p>
+                    <ul>
+                        <li>Built a real-time chat application using Python and WebSockets, allowing users to join chat rooms and send messages.</li>
+                        <li>Deployed the application on Heroku using Docker and connected it to a MongoDB database for message storage.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p class="project-title">Algorithm Visualizer</p>
+                    <ul>
+                        <li>Created a web-based algorithm visualizer using JavaScript and D3.js to help users understand sorting and searching algorithms.</li>
+                        <li>Implemented step-by-step visualization for algorithms such as QuickSort, MergeSort, and Dijkstra’s Algorithm.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Styled Go Back link -->
+    <a href="javascript:history.back()">Go Back to Previous Page</a>
+</body>
+</html>
+
